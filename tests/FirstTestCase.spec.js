@@ -1,7 +1,6 @@
-const{test, expect} = require("@playwright/test");
+const { test, expect } = require("@playwright/test");
 
-test("Verify Google Page title",async({browser})=>
-{
+test("Verify Google Page title", async ({ browser }) => {
     //Create ew browser context
     const context = browser.newContext();
 
