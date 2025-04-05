@@ -27,3 +27,11 @@ test('Type event in a textBox', async ({ page }) => {
     await page.keyboard.type('Latest trending Song');
     await page.keyboard.type('trending Song', { delay: 100 });
 })
+
+test.only('ups and down verivication', async({page}) =>
+{
+    await page.goto('https://www.google.com/');
+    await page.keyboard.down('KeyB');
+   //await page.keyboard.up('KeyB');
+    await page.pause();
+})
