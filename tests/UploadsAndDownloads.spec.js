@@ -1,5 +1,4 @@
 import test, { expect, page } from '@playwright/test'
-import { promises } from 'dns';
 
 test('Single File uplaod verification', async ({ page }) => {
     await page.goto('https://jkautomation.azurewebsites.net/index.html');
@@ -16,32 +15,37 @@ test('Single File uplaod verification using locator inside setinputFile', async 
     await page.getByRole("button", { name: "Upload" }).click();
 })
 
-test('Multiple file upload', async({page}) =>
-{
-    //Locator accepts only sinle file upload
+test('Multiple file upload', async ({ page }) => {
+    //Locator accepts only single file upload
     await page.goto('https://jkautomation.azurewebsites.net/index.html');
     await page.getByRole("link", { name: "Upload and Download" }).click();
-    await page.setInputFiles('#fileInput', ['../Playwright_jk/DemoFiles/ascii-art.txt','../Playwright_jk/DemoFiles/long-doc (1).txt']);
+    await page.setInputFiles('#fileInput', ['../Playwright_jk/DemoFiles/ascii-art.txt', '../Playwright_jk/DemoFiles/long-doc (1).txt']);
     await page.pause();
     await page.getByRole("button", { name: "Upload" }).click();
 })
- test.only('FileDownload from a locator', async({page}) =>
-{
+test.only('FileDownload from a locator', async ({ page }) => {
     await page.goto('https://jkautomation.azurewebsites.net/index.html');
     await page.getByRole("link", { name: "Upload and Download" }).click();
     await page.setInputFiles('#fileInput', '../Playwright_jk/DemoFiles/ascii-art.txt');
     await page.getByRole("button", { name: "Upload" }).click();
-    await expect(page.getByRole("button", {name:"Download"})).toBeVisible();
-    await page.pause();
 
-    const [ fileDownload ] = await Promise.all([
+
+    const [fileDownload] = await Promise.all([
         page.waitForEvent('download'),
-        page.click(getByRole("button", {name:"Download"}))
+        page.click('//button[@onclick="downloadFile()"]')
     ]);
 
-    const path = fileDownload.path();
+    const path = await fileDownload.path();
     console.log('Downloaded file saved at:', path);
+
+    const fileName = await fileDownload.suggestedFilename;
+    console.log("Download file name is: ",fileName);
+
+    // const directory = await fileDownload.directory();
+    // console.log('Download directory: ', directory)
 })
 
+// console.log(__filename); // Full path of the current test file
+// console.log(__dirname); // Directory where the current test file is located
 
-
+//console.log('CWD:', process.cwd());
