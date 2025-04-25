@@ -67,7 +67,7 @@ test('TC_06: Ensure login session persists across navigation', async ({ page }) 
     await expect(page.getByRole('link', { name: 'Sign Out' })).toBeVisible();
 })
 
-test.only('TC_07: Logout Functionality', async({page}) =>
+test('TC_07: Logout Functionality', async({page}) =>
 {
     await page.goto('https://magento-demo.mageplaza.com/default/customer/account/login/');
     await page.locator('#email').fill('roni_cost@example.com');

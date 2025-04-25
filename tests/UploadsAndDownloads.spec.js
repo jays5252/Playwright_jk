@@ -23,12 +23,11 @@ test('Multiple file upload', async ({ page }) => {
     await page.pause();
     await page.getByRole("button", { name: "Upload" }).click();
 })
-test.only('FileDownload from a locator', async ({ page }) => {
+test('FileDownload from a locator', async ({ page }) => {
     await page.goto('https://jkautomation.azurewebsites.net/index.html');
     await page.getByRole("link", { name: "Upload and Download" }).click();
     await page.setInputFiles('#fileInput', '../Playwright_jk/DemoFiles/ascii-art.txt');
     await page.getByRole("button", { name: "Upload" }).click();
-
 
     const [fileDownload] = await Promise.all([
         page.waitForEvent('download'),

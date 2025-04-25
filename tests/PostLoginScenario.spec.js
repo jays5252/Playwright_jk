@@ -21,10 +21,10 @@ test('TC_01: User should see the account dashboard', async ({ page }) => {
     //await page.pause();
 })
 
-test('TC_02: User can access and view past orders', async ({ page }) => {
+test.only('TC_02: User can access and view past orders', async ({ page }) => {
     await page.goto('https://magento-demo.mageplaza.com/default/customer/account/login/');
-    await page.locator('#email').fill('roni_cost@example.com');
-    await page.locator('#pass').fill('roni_cost3@example.com');
+    await page.locator('#email').fill('testdemo@malinator.com');
+    await page.locator('#pass').fill('User@123');
     await page.getByRole('button', { name: 'Sign In' }).click();
 
     //my order click
@@ -66,7 +66,7 @@ test('TC_02: User can access and view past orders', async ({ page }) => {
   console.log(' order rows validated successfully.');
 })
 
-test.only('TC_03: User can update name, email, or password', async({page}) =>
+test('TC_03: User can update name, email, or password', async({page}) =>
 {
     await page.goto('https://magento-demo.mageplaza.com/default/customer/account/login/');
     await page.locator('#email').fill('roni_cost@example.com');
