@@ -1,0 +1,126 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ANMylNCd6_IBHAtafI8hTn-pB94XjwBPwj89ndkWajGFLerPfx1XHwgROii85R0dA4FBozh7WJnFsaymK8HHgoU",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1764226054.308675,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.705766944.1748674053",
+      "domain": ".bldz.ai",
+      "path": "/",
+      "expires": 1783234052.547229,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refresh_token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNTQsIm5iZiI6MTc0ODY3NDA1NCwiZXhwIjoxNzUxMjY2MDU0LCJpZCI6MTM3fQ.2L5M9bqMRiP-eKdXfWi3cFOTLzSHXhT1SBqagIx2aFY",
+      "domain": ".bldz.ai",
+      "path": "/",
+      "expires": 1751266054.713256,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNTQsIm5iZiI6MTc0ODY3NDA1NCwiZXhwIjoxNzQ4Njc1MjU0LCJpZCI6MTM3fQ.rvRbLfsXfk9FNTlK-2e9r_vG0tHQYARa9MICcCnfqEk",
+      "domain": "app.bldz.ai",
+      "path": "/",
+      "expires": 1751266058.977633,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_6X2XMSM9SH",
+      "value": "GS2.1.s1748674052$o1$g1$t1748674055$j57$l0$h0",
+      "domain": ".bldz.ai",
+      "path": "/",
+      "expires": 1783234055.522908,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "SQxtm8+jc304mBOVXgpOv7sFajqEJPHGyGZH8s0GQxdx5U1/G2QOK7pSEFDSdKvrDZtIUYmBno82na3O+CYlAYInnmTGMI7ndt8ViXShvHeMJ0krlKztj3n5Kv7z",
+      "domain": "app.bldz.ai",
+      "path": "/",
+      "expires": 1749278859.361157,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "SQxtm8+jc304mBOVXgpOv7sFajqEJPHGyGZH8s0GQxdx5U1/G2QOK7pSEFDSdKvrDZtIUYmBno82na3O+CYlAYInnmTGMI7ndt8ViXShvHeMJ0krlKztj3n5Kv7z",
+      "domain": "app.bldz.ai",
+      "path": "/",
+      "expires": 1749278859.361235,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.bldz.ai",
+      "localStorage": [
+        {
+          "name": "clientInfo",
+          "value": "{\"owner\":1,\"pending_invoices\":[],\"plan_name\":\"Basic\",\"subscription_type\":\"2\",\"expired\":1,\"free_trial\":1,\"customer_id\":\"1836701000001478022\",\"org_admin\":1}"
+        },
+        {
+          "name": "zepth2v_token",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNTQsIm5iZiI6MTc0ODY3NDA1NCwiZXhwIjoxNzQ4Njc1MjU0LCJpZCI6MTM3fQ.rvRbLfsXfk9FNTlK-2e9r_vG0tHQYARa9MICcCnfqEk"
+        },
+        {
+          "name": "clientId",
+          "value": "5935"
+        },
+        {
+          "name": "zepth2v_user",
+          "value": "{\"id\":137,\"role_id\":null,\"username\":null,\"first_name\":\"Contractor\",\"last_name\":\"PM\",\"phone\":\"+9715757868\",\"password\":\"$2y$10$BYnwG1FJ.DcsXNj2yx65A.1rv4emE3A5wgKMtasEnS/Y3Wox/IJF2\",\"email\":\"general_contractor@zepth.com\",\"avatar\":\"user_avatar/52eea51d33cc4214c5b1.png\",\"login_status\":null,\"superadmin\":0,\"set_code\":null,\"set_codedate\":null,\"forgot_code\":null,\"forgot_codedate\":null,\"created\":\"2021-08-12 06:01:35\",\"created_by\":null,\"modified\":\"2024-05-16 05:28:54\",\"modified_by\":null,\"country_code\":null,\"isadmin\":1,\"welcome_message\":1,\"city\":null,\"state\":null,\"country\":\"India\",\"pincode\":null,\"address\":null,\"designation\":null,\"jobtitle_id\":\"2\",\"timezone\":\"+05:30\",\"status\":0,\"theme\":\"0\",\"privacy\":1,\"email_verification\":null,\"is_verfied\":1,\"signup_type\":1,\"phone_verified\":1,\"signup_from\":0,\"signup_device\":\"web\",\"signature\":\"<div>Regards,</div><div><strong style=\\\"color: rgb(0, 0, 0);\\\">Richard Devis | Contractor PM</strong></div><div><span style=\\\"color: rgb(113, 95, 95);\\\">Mobile:&nbsp;</span><strong style=\\\"color: rgb(113, 95, 95);\\\">+91 - 1234567890</strong></div><div><a href=\\\"https://www.zepth.com/\\\" target=\\\"_blank\\\" style=\\\"color: rgb(51, 122, 183);\\\"><img src=\\\"https://ci3.googleusercontent.com/proxy/-Vihff0CM5MmzEHIyytf2mT8nEuGvhoa8KqfB08-pYoRB9oRzqXsgFRHOsRmCZXZk2JYLWiAeq9NOWPCBw_2niFuLzK2Z-6Tw-DD7wei1wcg=s0-d-e1-ft#https://zepth.com/wp-content/uploads/2023/01/New-Project-1.png\\\" alt=\\\"Logo\\\" height=\\\"43\\\" width=\\\"156\\\"></a></div><div><a href=\\\"http://www.zepth.com/\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\"><strong>www.zepth.com</strong></a></div><div><strong style=\\\"color: rgb(56, 118, 29);\\\">Save Paper, Save Trees! Go Green, don't print.&nbsp;</strong><strong style=\\\"color: rgb(80, 0, 80);\\\">&nbsp;</strong></div><div><span style=\\\"color: rgb(80, 0, 80);\\\">This e-mail, including any&nbsp;attachments, contains information that is confidential and/or privileged.&nbsp;If you are not the intended recipient, please notify us immediately and destroy this e-mail.</span></div><div><br></div>\",\"trans_notify_status\":0,\"apple_identifier\":null,\"last_login\":\"2025-05-30 12:41:50\",\"last_login_device\":\"mobile\",\"last_activity\":\"2025-05-30 15:50:28\",\"last_activity_device\":\"web\",\"subdomain\":\"app.bldz.ai\",\"default_client\":5935,\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNTQsIm5iZiI6MTc0ODY3NDA1NCwiZXhwIjoxNzQ4Njc1MjU0LCJpZCI6MTM3fQ.rvRbLfsXfk9FNTlK-2e9r_vG0tHQYARa9MICcCnfqEk\",\"client\":5935}"
+        },
+        {
+          "name": "client_id",
+          "value": "5935"
+        },
+        {
+          "name": "last_subscription_check",
+          "value": "Sat May 31 2025"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09ANMylNAVOy5hETKRDM-IEIt1fNtvpgs06jsM4ozZ2bZcVetJQh5iGi1MMLKpSMVAbEeHWlYrUJPiOST1bVOcqhirCcwqXKWNjWrF3op6M09S6-38Jsq3e-T79cG6NnDG"
+        },
+        {
+          "name": "tour_prod_projects",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MTN3NW41dXU4cHZxaw=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAFG7__2Rp0hOGNLhaEc1OdfgB6UELJhOY4q6IPBMnOwduhqCWjdtoeVwX7kPWhe6oTSDYxw"
+        }
+      ]
+    }
+  ]
+}
