@@ -2,7 +2,7 @@ import { test, expect, request } from '@playwright/test'
 
 test('Update record using Put method', async () => {
     const apiContext = await request.newContext();
-    const response = await apiContext.put('https://reqres.in//api/users/2', {
+    const response = await apiContext.put('https://reqres.in/api/users/2', {
         headers: {
             'x-api-key': "reqres-free-v1"
         },
@@ -26,3 +26,5 @@ test('Update record using Put method', async () => {
     expect(body.job).toBe('zion resident');
 
 })
+
+//put method is not running
