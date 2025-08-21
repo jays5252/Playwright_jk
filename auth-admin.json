@@ -1,0 +1,126 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ANMylNDbgOV4T9hp5xtDR3UvvPG3iQtSvWKbKG7BLIMoT3ESpcKMg1oj9I1r2Cg4iU47W9vHIOQJQotltxD58e8",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1764226045.001353,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1986055481.1748674043",
+      "domain": ".bldz.ai",
+      "path": "/",
+      "expires": 1783234043.495702,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refresh_token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNDUsIm5iZiI6MTc0ODY3NDA0NSwiZXhwIjoxNzUxMjY2MDQ1LCJpZCI6NzE0NH0.ejtAg6aLmrBSiC5EHUZVJw63Iy_jOuwKpMwJvaeUQfk",
+      "domain": ".bldz.ai",
+      "path": "/",
+      "expires": 1751266045.414996,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNDUsIm5iZiI6MTc0ODY3NDA0NSwiZXhwIjoxNzQ4Njc1MjQ1LCJpZCI6NzE0NH0.LL1UOuJFIqakD5yMzEfaBcPxrLiCJrKaXgtht4wBsH0",
+      "domain": "app.bldz.ai",
+      "path": "/",
+      "expires": 1751266048.063086,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_6X2XMSM9SH",
+      "value": "GS2.1.s1748674043$o1$g1$t1748674046$j57$l0$h0",
+      "domain": ".bldz.ai",
+      "path": "/",
+      "expires": 1783234046.250846,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "7VJyvJwrsRLdQfiQ4zpTd/eA0ewjhj5u5L2d4yOV9MD/ovYK2WB1tF3PNsKpffF/s2hoEaFcgyHKnQZOXsoCKluCeguhbJ6auHdWlIEqHrf5wKGx6gLOeTmd2fmH",
+      "domain": "app.bldz.ai",
+      "path": "/",
+      "expires": 1749278848.397064,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "7VJyvJwrsRLdQfiQ4zpTd/eA0ewjhj5u5L2d4yOV9MD/ovYK2WB1tF3PNsKpffF/s2hoEaFcgyHKnQZOXsoCKluCeguhbJ6auHdWlIEqHrf5wKGx6gLOeTmd2fmH",
+      "domain": "app.bldz.ai",
+      "path": "/",
+      "expires": 1749278848.397154,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.bldz.ai",
+      "localStorage": [
+        {
+          "name": "clientInfo",
+          "value": "{\"owner\":1,\"pending_invoices\":[],\"plan_name\":\"Basic\",\"subscription_type\":\"2\",\"expired\":1,\"free_trial\":1,\"customer_id\":\"1836701000001929186\",\"org_admin\":1}"
+        },
+        {
+          "name": "zepth2v_token",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNDUsIm5iZiI6MTc0ODY3NDA0NSwiZXhwIjoxNzQ4Njc1MjQ1LCJpZCI6NzE0NH0.LL1UOuJFIqakD5yMzEfaBcPxrLiCJrKaXgtht4wBsH0"
+        },
+        {
+          "name": "clientId",
+          "value": "6126"
+        },
+        {
+          "name": "zepth2v_user",
+          "value": "{\"id\":7144,\"role_id\":null,\"username\":null,\"first_name\":\"Sarah\",\"last_name\":\"Whitaker\",\"phone\":null,\"password\":\"$2y$10$iw5YSTAgfsw/y2JAeX1EF.V2Fu0a8BuLhT03p31I1zvY1iY8IEwBO\",\"email\":\"sarah@yopmail.com\",\"avatar\":null,\"login_status\":null,\"superadmin\":0,\"set_code\":null,\"set_codedate\":null,\"forgot_code\":null,\"forgot_codedate\":null,\"created\":\"2025-05-12 11:52:04\",\"created_by\":null,\"modified\":\"2025-05-12 11:52:04\",\"modified_by\":null,\"country_code\":null,\"isadmin\":null,\"welcome_message\":null,\"city\":null,\"state\":null,\"country\":\"India\",\"pincode\":null,\"address\":null,\"designation\":null,\"jobtitle_id\":null,\"timezone\":\"+05:30\",\"status\":0,\"theme\":\"0\",\"privacy\":0,\"email_verification\":\"\",\"is_verfied\":1,\"signup_type\":2,\"phone_verified\":1,\"signup_from\":0,\"signup_device\":\"web\",\"signature\":null,\"trans_notify_status\":0,\"apple_identifier\":null,\"last_login\":\"2025-05-26 10:00:26\",\"last_login_device\":\"mobile\",\"last_activity\":\"2025-05-26 10:00:29\",\"last_activity_device\":\"mobile\",\"subdomain\":\"app.bldz.ai\",\"default_client\":6126,\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDg2NzQwNDUsIm5iZiI6MTc0ODY3NDA0NSwiZXhwIjoxNzQ4Njc1MjQ1LCJpZCI6NzE0NH0.LL1UOuJFIqakD5yMzEfaBcPxrLiCJrKaXgtht4wBsH0\",\"client\":6126}"
+        },
+        {
+          "name": "client_id",
+          "value": "6126"
+        },
+        {
+          "name": "last_subscription_check",
+          "value": "Sat May 31 2025"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09ANMylNBomwa_YiJMhzrwhQWZSXXViq4Kw81LFKwSYDPzDdxe3FUHN1mKSeVibJMvp0B76ci0Z07uLtX-qGatt2SGJaI4mqvp_dWHeH3NMFzPpBrpPQ5hhzqxHYGLnfQX"
+        },
+        {
+          "name": "tour_prod_projects",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MWtrdXIyeDExd2EybnA="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAFG7__29rI333wvZxOQPa1dGde6aHXA5qrW0w_neF9YGntuHDzq3PeUipjV8W1g6vMSpmxs"
+        }
+      ]
+    }
+  ]
+}
